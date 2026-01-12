@@ -15,8 +15,5 @@ else
         colcon build --packages-select "$@" --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 fi
 
-# Make sure enviroment is up to date
-source install/setup.bash
-
 # Move back to starting directory
 cd "$start_dir"

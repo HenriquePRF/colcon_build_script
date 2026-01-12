@@ -48,7 +48,6 @@ cb package1 package2 package3
 1. Saves your current directory
 2. Navigates to the configured ROS 2 workspace
 3. Runs colcon build with CMAKE_EXPORT_COMPILE_COMMANDS enabled
-4. Sources the workspace's `setup.bash`
-5. Returns you to your starting directory
+4. Returns you to your starting directory
 
 > **Note:** The script builds with `CMAKE_EXPORT_COMPILE_COMMANDS=ON` which generates a `compile_commands.json` file. This enables better IntelliSense and code completion in VSCode and other IDEs. 
