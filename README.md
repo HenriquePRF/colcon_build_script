@@ -13,13 +13,13 @@ cd colcon_build_script
 2. Copy the script to `~/.local/bin`:
 ```bash
 mkdir -p ~/.local/bin
-cp cb ~/. local/bin/
+cp cb ~/.local/bin/
 chmod +x ~/.local/bin/cb
 ```
 
 3. Make sure `~/.local/bin` is in your PATH (most distributions include this by default):
 ```bash
-# Add this to your ~/. bashrc if needed
+# Add this to your ~/.bashrc if needed
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
