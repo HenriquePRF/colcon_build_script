@@ -2,7 +2,7 @@
 
 set -e # Exit if any command fails
 
-ws_dir="$HOME/Labcon/rosi_ws"
+ws_dir=""
 start_dir=$(pwd)
 
 # Move to workspace directory
